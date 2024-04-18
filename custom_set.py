@@ -29,10 +29,10 @@ def main():
     my_set.add("item 2")
     my_set.add("item 3")
 
-    print(my_set.as_list()) # ["item 1", "item 2"]
+    print(my_set.as_list()) # ["item 1", "item 2", "item 3"]
 
     my_set.remove("item 2")
-    print(my_set.as_list()) # ["item 1"]
+    print(my_set.as_list()) # ["item 1", "item 3"]
 
     my_set.clear()
     print(my_set.as_list()) # []
